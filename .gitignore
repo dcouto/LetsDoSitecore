@@ -168,6 +168,8 @@ lib/**/*.dll
 lib/*.xml
 lib/**/*.xml
 
+licenses/*
+
 # Microsoft Azure Build Output
 csx/
 *.build.csdef
