@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{E8B508D6-27CD-4D09-89E7-23618EB8DEE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsDoSitecore.Foundation.Extensions", "src\Foundation\Coveo\code\LetsDoSitecore.Foundation.Extensions\LetsDoSitecore.Foundation.Extensions.csproj", "{39BF1D2A-8977-41FB-939F-620D8B4AAF70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsDoSitecore.Foundation.Extensions", "src\Foundation\Extensions\code\LetsDoSitecore.Foundation.Extensions\LetsDoSitecore.Foundation.Extensions.csproj", "{39BF1D2A-8977-41FB-939F-620D8B4AAF70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsDoSitecore.Foundation.Extensions.Tests", "src\Foundation\Coveo\tests\LetsDoSitecore.Foundation.Extensions.Tests\LetsDoSitecore.Foundation.Extensions.Tests.csproj", "{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsDoSitecore.Foundation.Extensions.Tests", "src\Foundation\Extensions\tests\LetsDoSitecore.Foundation.Extensions.Tests\LetsDoSitecore.Foundation.Extensions.Tests.csproj", "{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{DD56295A-B94D-454E-AD79-114680391913}"
 	ProjectSection(SolutionItems) = preProject
