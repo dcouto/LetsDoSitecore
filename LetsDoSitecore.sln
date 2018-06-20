@@ -15,6 +15,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{4394F391-1E40-4215-8F4A-1FFA8BF8A0D0}"
+	ProjectSection(SolutionItems) = preProject
+		lib\README.md = lib\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "licenses", "licenses", "{00D75183-6776-41DD-807A-0DDE5957C356}"
+	ProjectSection(SolutionItems) = preProject
+		licenses\README.md = licenses\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Coveo", "Coveo", "{7BD1AF3E-621F-44E3-93A0-C15BA578A037}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Coveo\README.md = lib\Coveo\README.md
 	EndProjectSection
 EndProject
 Global
@@ -39,6 +55,9 @@ Global
 		{E8B508D6-27CD-4D09-89E7-23618EB8DEE5} = {C5EFE453-CEE1-4AB2-8E49-209BB90A3D5E}
 		{39BF1D2A-8977-41FB-939F-620D8B4AAF70} = {E8B508D6-27CD-4D09-89E7-23618EB8DEE5}
 		{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2} = {E8B508D6-27CD-4D09-89E7-23618EB8DEE5}
+		{4394F391-1E40-4215-8F4A-1FFA8BF8A0D0} = {DD56295A-B94D-454E-AD79-114680391913}
+		{00D75183-6776-41DD-807A-0DDE5957C356} = {DD56295A-B94D-454E-AD79-114680391913}
+		{7BD1AF3E-621F-44E3-93A0-C15BA578A037} = {4394F391-1E40-4215-8F4A-1FFA8BF8A0D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BF86EC0-86B3-41C7-A34B-93A3C8737133}
