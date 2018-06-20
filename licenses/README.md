@@ -1,1 +1,1 @@
-Place your license.xml in this folder if you want to run the unit tests.
+Place your license.xml file in this folder if you want to run the unit tests.
