@@ -44,13 +44,16 @@
   <ItemGroup>
     <Reference Include="Coveo.Framework">
       <HintPath>..\..\..\..\..\lib\Coveo\Coveo.Framework.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Coveo.SearchProviderBase">
       <HintPath>..\..\..\..\..\lib\Coveo\Coveo.SearchProviderBase.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Sitecore.Kernel, Version=11.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\..\packages\Sitecore.Kernel.NoReferences.9.0.171219\lib\NET462\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
