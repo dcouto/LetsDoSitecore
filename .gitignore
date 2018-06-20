@@ -163,6 +163,11 @@ PublishScripts/
 *.nuget.props
 *.nuget.targets
 
+lib/*.dll
+lib/**/*.dll
+lib/*.xml
+lib/**/*.xml
+
 # Microsoft Azure Build Output
 csx/
 *.build.csdef

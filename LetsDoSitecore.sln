@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsDoSitecore.Foundation.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsDoSitecore.Foundation.Extensions.Tests", "src\Foundation\Coveo\tests\LetsDoSitecore.Foundation.Extensions.Tests\LetsDoSitecore.Foundation.Extensions.Tests.csproj", "{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{DD56295A-B94D-454E-AD79-114680391913}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
