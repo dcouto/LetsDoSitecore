@@ -33,6 +33,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Coveo", "Coveo", "{7BD1AF3E
 		lib\Coveo\README.md = lib\Coveo\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Coveo", "Coveo", "{0229BC1B-2129-4D18-8496-7E02D9725D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsDoSitecore.Foundation.Coveo", "src\Foundation\Coveo\code\LetsDoSitecore.Foundation.Coveo\LetsDoSitecore.Foundation.Coveo.csproj", "{B34003E0-FDF0-4E56-9DCE-DCEB51A87EF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34003E0-FDF0-4E56-9DCE-DCEB51A87EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34003E0-FDF0-4E56-9DCE-DCEB51A87EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34003E0-FDF0-4E56-9DCE-DCEB51A87EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34003E0-FDF0-4E56-9DCE-DCEB51A87EF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +66,8 @@ Global
 		{4394F391-1E40-4215-8F4A-1FFA8BF8A0D0} = {DD56295A-B94D-454E-AD79-114680391913}
 		{00D75183-6776-41DD-807A-0DDE5957C356} = {DD56295A-B94D-454E-AD79-114680391913}
 		{7BD1AF3E-621F-44E3-93A0-C15BA578A037} = {4394F391-1E40-4215-8F4A-1FFA8BF8A0D0}
+		{0229BC1B-2129-4D18-8496-7E02D9725D7E} = {C5EFE453-CEE1-4AB2-8E49-209BB90A3D5E}
+		{B34003E0-FDF0-4E56-9DCE-DCEB51A87EF6} = {0229BC1B-2129-4D18-8496-7E02D9725D7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BF86EC0-86B3-41C7-A34B-93A3C8737133}
