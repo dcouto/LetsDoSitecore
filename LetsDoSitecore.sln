@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{C5EFE453-CEE1-4AB2-8E49-209BB90A3D5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{E8B508D6-27CD-4D09-89E7-23618EB8DEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsDoSitecore.Foundation.Extensions", "src\Foundation\Coveo\code\LetsDoSitecore.Foundation.Extensions\LetsDoSitecore.Foundation.Extensions.csproj", "{39BF1D2A-8977-41FB-939F-620D8B4AAF70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsDoSitecore.Foundation.Extensions.Tests", "src\Foundation\Coveo\tests\LetsDoSitecore.Foundation.Extensions.Tests\LetsDoSitecore.Foundation.Extensions.Tests.csproj", "{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39BF1D2A-8977-41FB-939F-620D8B4AAF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BF1D2A-8977-41FB-939F-620D8B4AAF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BF1D2A-8977-41FB-939F-620D8B4AAF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BF1D2A-8977-41FB-939F-620D8B4AAF70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8B508D6-27CD-4D09-89E7-23618EB8DEE5} = {C5EFE453-CEE1-4AB2-8E49-209BB90A3D5E}
+		{39BF1D2A-8977-41FB-939F-620D8B4AAF70} = {E8B508D6-27CD-4D09-89E7-23618EB8DEE5}
+		{02FB39C7-1C1D-404B-A4C5-A64BCBF251F2} = {E8B508D6-27CD-4D09-89E7-23618EB8DEE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BF86EC0-86B3-41C7-A34B-93A3C8737133}
+	EndGlobalSection
+EndGlobal
