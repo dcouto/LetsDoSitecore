@@ -169,6 +169,7 @@ lib/*.xml
 lib/**/*.xml
 
 licenses/*
+!licenses/README.md
 
 # Microsoft Azure Build Output
 csx/
